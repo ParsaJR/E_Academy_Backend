@@ -32,8 +32,9 @@ services:
     networks:
       - E_Academy_Network
 ```
-2. Run "docker compose up" in your directory
-3. WebAPI will be exposed on 8001 port on the host.
+2. Change the environment variables
+3. Run "docker compose up" in your directory
+4. WebAPI and database are exposed on ports '8001' and '8002' respectively.
  > Migrations will be performed automatically
 
 ## Run for Development
