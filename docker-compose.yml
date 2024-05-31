@@ -22,7 +22,7 @@ services:
       context: .
       dockerfile: E_Academy_Backend/Dockerfile
     ports:
-      - 8001:8081
+      - 8001:8080
     depends_on:
       - e_academy_database
     environment:
