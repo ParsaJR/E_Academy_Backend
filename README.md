@@ -34,7 +34,7 @@ services:
 ```
 2. Change the environment variables
 3. Run "docker compose up" in your directory
-4. WebAPI and database are exposed on ports '8001' and '8002' respectively.
+4. WebAPI and database(to connect to it via SQL Server Management Studio) are exposed on ports '8001' and '8002' respectively.
  > Migrations will be performed automatically
 
 ## Run for Development
